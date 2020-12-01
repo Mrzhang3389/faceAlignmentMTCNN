@@ -24,7 +24,7 @@ pip install opencv-python
 
 ```
 export PYTHONPATH=$(pwd)
-python faceAlignmentMtcnn/align_dataset_mtcnn.py ./data/input_data ./data/output_data --image_size 182 --margin 44
+python align_dataset_mtcnn.py ./data/input_data ./data/output_data --image_size 182 --margin 44
 ```
 
 人脸对齐前: 
